@@ -1,0 +1,16 @@
+# Tasks
+- [x] Keep the free Lovable address for the university presentation; do not purchase or connect www.ventasmonroy.cl.
+- [x] Improve the peanut illustration in the store header and browser/mobile icons.
+- [x] Replace the store identity icon with a peanut image, including the browser and mobile icons; verified rendered header and all icon files.
+- [ ] Connect Mercado Pago for Chile with test credentials, then implement and verify payment checkout in the cart; blocked until the payment account is connected.
+- [x] Put the presentation-only administrator entry inside the storefront Ingresar dialog; verified demo navigation, no real credential request, exit reset and preserved customer form.
+- [x] Remove storefront Admin demo link and add an isolated presentation-only sign-in screen on `/admin`, without real credentials or database access; verified entry, inventory, exit and refresh reset on desktop/mobile.
+- [x] Add manifest-only mobile home-screen support and verify manifest/icons and mobile entry screen.
+- [x] Connect Firebase Messaging with web push enabled.
+- [x] Add browser Firebase registration and a local notification test within Administrador → Notificaciones, with preview and iPhone guidance; preserve demo inventory isolation.
+- [x] Add separately authenticated own-device registration, remote test and automatic alerts from fictional stock changes on the computer; verified signed-in own-device empty state, no-device gating, permission handling, mobile layout and nine tests.
+- [ ] Verify registration and receipt on the user's phone: requires publishing these changes and the user's permission on their phone.
+- [ ] Implement real inventory and protected low-stock phone alerts: blocked by confirmation to move beyond the presentation-only inventory; preserve isolated `/admin` demo.
+- [x] Create visual administrator with overview, inventory, movements and orders using isolated demo data.
+- [x] Verify navigation, demo controls and small-screen layout.
+- [x] Chatbot "Moni" on the main page (floating widget + AI via Lovable gateway).

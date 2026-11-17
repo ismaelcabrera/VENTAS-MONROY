@@ -1,0 +1,26 @@
+
+Instrucciones para hacer funcionar el script
+
+Para levantar la base de datos completa con sus 8 tablas, relaciones y productos reales, sigue estos pasos directos:
+
+Paso 1: Activar el servidor
+
+1. Presiona Windows + R, escribe services.msc y presiona Enter.
+2. Busca el servicio MySQL80 y verifica que en su estado diga "En ejecución".
+
+Paso 2: Abrir tu programa de base de datos
+
+1. Abre Oracle SQL Developer o MySQL Workbench.
+2. Conéctate a tu base de datos local usando el usuario root y la contraseña que configuraste en tu computador.
+3. Abre una hoja de trabajo en blanco (SQL Worksheet).
+
+Paso 3: Pegar y ejecutar el código
+
+1. Pega el script SQL de MySQL por completo en la hoja limpia.
+2. Para ejecutar todo el script de un solo golpe:
+	• Si usas SQL Developer: Presiona la tecla F5 (o el botón con la hoja y el play verde).
+	• Si usas MySQL Workbench: Presiona Ctrl + Shift + Enter (o el botón del rayo amarillo).
+
+Paso 4: Confirmar
+
+• Revisa la consola inferior. Debe indicar que se creó la base de datos ventas_monroy, las 8 tablas con sus uniones y que se cargaron con éxito todos los productos reales.
